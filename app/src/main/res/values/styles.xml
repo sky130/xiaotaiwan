@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.App" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:fontFamily">"sans-serif-medium"</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:selectableItemBackground">@null</item>
+        <item name="android:selectableItemBackgroundBorderless">@null</item>
+    </style>
+
+    <style name="Theme.App" parent="Base.Theme.App" />
+
+    <style name="TextStyle" parent="android:Widget.TextView">
+        <item name="android:text">标题栏</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:paddingTop">0.5dp</item>
+        <item name="android:paddingBottom">0.5dp</item>
+    </style>
+
+    <style name="ClockStyle">
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#CCFFFFFF</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:format12Hour">h:mm</item>
+        <item name="android:format24Hour">HH:mm</item>
+    </style>
+
+    <style name="Theme.App.Switch" parent="HeySwitchStyle">
+        <item name="barCheckedColor">@color/blue</item>
+        <item name="barCheckedDisabledColor">#666186FC</item>
+    </style>
+
+
+<!--    <style name="Theme.MiHome.Splash" parent="Theme.MiHome">-->
+<!--        <item name="android:windowBackground">@drawable/bg_splash</item>-->
+<!--        <item name="android:statusBarColor" tools:ignore="PrivateResource">@color/black</item>-->
+<!--    </style>-->
+
+</resources>

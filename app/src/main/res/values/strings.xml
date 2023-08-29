@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">小抬腕</string>
+    <string name="accessibility_service_label">小抬腕API中转</string>
+    <string name="accessibility_service_description">小抬腕API中转</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="MainTitleBar">
+        <attr name="title" />
+    </declare-styleable>
+
+    <declare-styleable name="ZeroItemView">
+        <attr name="title" />
+    </declare-styleable>
+
+    <declare-styleable name="ZeroItemWithIconView">
+        <attr name="title" />
+        <attr name="subTitle"/>
+        <attr name="android:src"/>
+    </declare-styleable>
+    <attr name="subTitle" format="string" />
+
+    <attr name="text" format="string" />
+    <declare-styleable name="ZeroSwitchView">
+        <attr name="text" />
+    </declare-styleable>
+
+</resources>
